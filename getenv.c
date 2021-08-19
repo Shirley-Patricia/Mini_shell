@@ -10,7 +10,7 @@ char *_getenv(const char *name)
     {
         _strncpy(nombre, environ[i], a);
         nombre[a] = '\0';
-       
+
         if ((_strcmp(nombre, name)) == 0)
         {
             var = environ[i];
