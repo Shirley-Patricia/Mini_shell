@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main()
+int _getline()
 {
 	char *line = NULL;
 	char *prompt = "$ ";
